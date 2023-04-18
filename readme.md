@@ -12,3 +12,5 @@ Ensuite vous pourrez éxécuter dans le terminal `pnpm compile` pour compiler le
 ---
 
 Enfin, en vous rendant à l'adresse `localhost:8080` vous pourriez accéder au serveur.
+
+Voici le résultat: https://youtu.be/24JLo82J8P8
