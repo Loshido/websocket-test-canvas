@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket TEST</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{overflow: hidden;}
+        div#stats{
+            position: absolute; 
+            margin: 25px; 
+            top: 0; 
+            left: 0; 
+            background-color: rgba(255,255,255,0.25);
+        }
+    </style>
+</head>
+<body>
+    <div id="stats">
+        <pre id="player"></pre>
+        <pre id="players"></pre>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
